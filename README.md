@@ -76,7 +76,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### V1.0.0 版本，yyyy-mm-dd
 
-1. 新功能：aaaaaaaaa
-2. 新功能：bbbbbbbbb
-3. 修改：ccccccccc
-4. 修复：ddddddddd
+1. 新功能：飞机火车酒店查询下单
+![首页](https://user-images.githubusercontent.com/43610618/112946629-58f4da00-9168-11eb-9236-1a4440b4feca.jpg)
+2. 新功能：建立出差申请单
+![出差申请](https://user-images.githubusercontent.com/43610618/112946653-614d1500-9168-11eb-9898-04dd1c02044b.jpg)
+3. 新功能：申请单，审批单，意向单，订单，行程单等查询
+![订单页面](https://user-images.githubusercontent.com/43610618/112946713-6e6a0400-9168-11eb-8e0d-32f18330288b.jpg)
+4. 新功能：
+![用车业务](https://user-images.githubusercontent.com/43610618/112946733-74f87b80-9168-11eb-9770-a5716f72e55d.jpg)
+5. 新功能：高端定制
+![高端定制](https://user-images.githubusercontent.com/43610618/112946784-817cd400-9168-11eb-8a35-484a5515fbb7.jpg)
+6. 新功能：个人中心
+![个人中心](https://user-images.githubusercontent.com/43610618/112946812-893c7880-9168-11eb-9e9d-945cf2bcaed6.jpg)
