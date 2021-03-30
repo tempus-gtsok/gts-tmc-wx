@@ -1,0 +1,16 @@
+{
+  "name": "web-uniapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dingtalk-jsapi": "^2.12.2",
+    "element-ui": "^2.14.0"
+  }
+}

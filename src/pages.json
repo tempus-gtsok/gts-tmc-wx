@@ -1,0 +1,568 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/book/book",
+			"permission": {
+				"scope.userLocation": {
+					"desc": "你的位置信息将用于小程序位置接口的效果展示"
+				}
+			},
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "components/view/personnel",
+			"style": {
+				"navigationBarTitleText": "人员选择"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单列表"
+			}
+		},
+		{
+			"path": "pages/mydi/mydi",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/registered",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/book/wxapk",
+			"style": {
+				"navigationBarTitleText": "提示"
+			}
+		},
+		{
+			"path": "pages/towork/towork",
+			"style": {
+				"navigationBarTitleText": "企业办公"
+			}
+		},
+		{
+			"path": "pages/book/valist/valist",
+			"style": {
+				"navigationBarTitleText": "高端定制"
+			}
+		},
+		{
+			"path": "pages/book/flightdynamicst/Flightdynamics",
+			"style": {
+				"navigationBarTitleText": "航班动态",
+				"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+				"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+			}
+		},
+		{
+			"path": "pages/book/valist/globalcharterflights/globalcharterflights",
+			"style": {
+				"navigationBarTitleText": "全球包机"
+			}
+		},
+		{
+			"path": "pages/book/valist/globalcharterflights/globalcharterflightsadd",
+			"style": {
+				"navigationBarTitleText": "全球包机提交"
+			}
+		},
+		{
+			"path": "pages/book/valist/cruise/cruise",
+			"style": {
+				"navigationBarTitleText": "豪华邮轮 ",
+				"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+				"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+			}
+		},
+		{
+			"path": "pages/book/valist/cruise/cruiseadd",
+			"style": {
+				"navigationBarTitleText": "预定邮轮 "
+			}
+		},
+		{
+			"path": "pages/book/valist/mices/mices",
+			"style": {
+				"navigationBarTitleText": "会议定制"
+			}
+		},
+		{
+
+			"path": "pages/book/valist/domesticairTicket/domesticairTicket",
+			"style": {
+				"navigationBarTitleText": "国内机票"
+			}
+		},
+		{
+			"path": "pages/book/valist/hotel/hotel",
+			"style": {
+				"navigationBarTitleText": "酒店"
+			}
+		},
+		{
+			"path": "pages/book/itinerary/itinerary",
+			"style": {
+				"navigationBarTitleText": "我的行程 ",
+				"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+				"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+			}
+		},
+		{
+			"path": "pages/book/itinerary/itinerarylist/ticklist",
+			"style": {
+				"navigationBarTitleText": "机票详情 "
+			}
+		},
+		{
+			"path": "pages/book/itinerary/itinerarylist/trainlist",
+			"style": {
+				"navigationBarTitleText": "火车详情 "
+			}
+		},
+		{
+			"path": "pages/book/itinerary/itinerarylist/hotelist",
+			"style": {
+				"navigationBarTitleText": "酒店住房详情 "
+			}
+		}, {
+			"path": "pages/book/sselect-city/selectcity",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		},
+
+		{
+			"path": "pages/login/retrievepassword",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages-book",
+			"pages": [{
+					"path": "book/mainModules/majorFunction/carbusiness/carforck",
+					"style": {
+						"navigationBarTitleText": "超规审批人确定"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/select_list/select_list",
+					"style": {
+						"navigationBarTitleText": "查询 "
+					}
+				}, {
+					"path": "book/mainModules/majorFunction/hotelselect/hotelselect",
+					"style": {
+						"navigationBarTitleText": "酒店搜索"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/hotelselect/hotellist/hotrllist",
+					"style": {
+						"navigationBarTitleText": "酒店详情"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/hotelselect/hotellist/hotelreservation",
+					"style": {
+						"navigationBarTitleText": "酒店预定"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/trainselect/trainselect",
+					"style": {
+						"navigationBarTitleText": "火车搜索"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/carbusiness",
+					"style": {
+						"navigationBarTitleText": "用车服务"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/carbusinesslist/searchcars",
+					"style": {
+						"navigationBarTitleText": "地址搜索"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/carbusinesslist/carcitys",
+					"style": {
+						"navigationBarTitleText": "城市选择"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/carbusinesslist/tocknos",
+					"style": {
+						"navigationBarTitleText": "航班选择"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/cartadd",
+					"style": {
+						"navigationBarTitleText": "用车服务"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/cartaddlist/carcontacts",
+					"style": {
+						"navigationBarTitleText": "联系人"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/cartaddlist/carconstlist",
+					"style": {
+						"navigationBarTitleText": "选择成本中心"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/carbusiness/cartaddlist/carcompanystaff",
+					"style": {
+						"navigationBarTitleText": "人员列表"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/trainselect/tranlist/teanlist",
+					"style": {
+						"navigationBarTitleText": "详情信息"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/trainselect/tranlist/reanadlist",
+					"style": {
+						"navigationBarTitleText": "确定信息"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/ticketInquiry/ticketinquiry",
+					"style": {
+						"navigationBarTitleText": "查询机票"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/ticketInquiry/particulars/particularst",
+					"style": {
+						"navigationBarTitleText": "机票预定"
+					}
+				},
+				{
+					"path": "book/mainModules/majorFunction/ticketInquiry/particulars/predetermine/predetermine",
+					"style": {
+						"navigationBarTitleText": "预定机票"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages-order",
+			"pages": [{
+					"path": "pages/order/carorder/carorder",
+					"style": {
+						"navigationBarTitleText": "用车订单",
+						"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+						"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+					}
+				},
+				{
+					"path": "pages/order/carorder/carorderlist/carorderlist",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path": "pages/order/carorder/carorderlist/carExpensedetails",
+					"style": {
+						"navigationBarTitleText": "费用明细"
+					}
+				},
+
+				{
+					"path": "pages/order/carorder/carorderlist/car_cancel",
+					"style": {
+						"navigationBarTitleText": "订单取消"
+					}
+				},
+
+				{
+					"path": "pages/order/planeorders/planeorders",
+					"style": {
+						"navigationBarTitleText": "飞机订单",
+						"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+						"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+					}
+				},
+				{
+					"path": "pages/order/planeorders/planeordersaircraft",
+					"style": {
+						"navigationBarTitleText": "飞机详情"
+					}
+				},
+				{
+					"path": "pages/order/planeorders/planchange/planchanges",
+					"style": {
+						"navigationBarTitleText": "改签单详情"
+					}
+				},
+				{
+					"path": "pages/order/planeorders/chargebackdetails/chargebackdetailsl",
+					"style": {
+						"navigationBarTitleText": "退废单详情"
+					}
+				},
+				{
+					"path": "pages/order/planeorders/retirement",
+					"style": {
+						"navigationBarTitleText": "飞机申请退票"
+					}
+				},
+				{
+					"path": "pages/order/trainorder/trainorder",
+					"style": {
+						"navigationBarTitleText": "火车票订单",
+						"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+						"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+					}
+				}, {
+					"path": "pages/order/trainorder/traninchange/trainchanglist",
+					"style": {
+						"navigationBarTitleText": "火车票详情"
+					}
+				}, {
+					"path": "pages/order/trainorder/applyforchange",
+					"style": {
+						"navigationBarTitleText": "申请退票"
+					}
+				}, {
+					"path": "pages/order/hotelorder/hotelorder",
+					"style": {
+						"navigationBarTitleText": "酒店订单",
+						"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+						"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+					}
+				}, {
+					"path": "pages/order/hotelorder/hotelorderlist/hotelorderlist",
+					"style": {
+						"navigationBarTitleText": "酒店订单详情"
+					}
+				}, {
+					"path": "pages/order/hotelorder/hotelforchange",
+					"style": {
+						"navigationBarTitleText": "酒店取消订单"
+					}
+				}, {
+					"path": "pages/order/Insuranceorders/insuraorder",
+					"style": {
+						"navigationBarTitleText": "保险订单",
+						"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+						"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+					}
+				}, {
+					"path": "pages/order/Insuranceorders/insuralist/insuralist",
+					"style": {
+						"navigationBarTitleText": "保险订单详情"
+					}
+				}, {
+					"path": "pages/order/trainorder/trainorderdetails",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages-mydi",
+			"pages": [{
+					"path": "pages/mydi/privilegemanagement/privilegemanagement",
+					"style": {
+						"navigationBarTitleText": "角色列表"
+					}
+				},
+				{
+					"path": "pages/mydi/privilegemanagement/moveprovolegemange/moveprovolegemange",
+					"style": {
+						"navigationBarTitleText": "权限管理"
+					}
+				},
+				{
+					"path": "pages/mydi/IntentList/Intentlist",
+					"style": {
+						"navigationBarTitleText": "我的意向单 "
+					}
+				}, {
+					"path": "pages/mydi/IntentList/intentdetails",
+					"style": {
+						"navigationBarTitleText": "酒店意向单详情 "
+					}
+				}, {
+					"path": "pages/mydi/IntentList/ticketIntentForm",
+					"style": {
+						"navigationBarTitleText": "飞机意向单 "
+					}
+				},
+				{
+					"path": "pages/mydi/IntentList/ticketIntentDetails",
+					"style": {
+						"navigationBarTitleText": "飞机意向单详情 "
+					}
+				},
+				{
+					"path": "pages/mydi/information/changePhone/changePhone",
+					"style": {
+						"navigationBarTitleText": "更改手机号"
+					}
+				},
+				{
+					"path": "pages/mydi/colleaguemanagement/colleaguemanagement",
+					"style": {
+						"navigationBarTitleText": "同事管理"
+					}
+				},
+				{
+					"path": "pages/mydi/colleaguemanagement/add_colleag/add_collagu",
+					"style": {
+						"navigationBarTitleText": "新增同事"
+					}
+				},
+				{
+					"path": "pages/mydi/frequenttravellers/frequenttravellers",
+					"style": {
+						"navigationBarTitleText": "旅客信息"
+					}
+				},
+				{
+					"path": "pages/mydi/frequenttravellers/addFrequenttravellers/addFrequenttravellers",
+					"style": {
+						"navigationBarTitleText": "新增旅客"
+					}
+				},
+				{
+					"path": "pages/mydi/information/information",
+					"style": {
+						"navigationBarTitleText": "个人信息"
+					}
+				},
+				{
+					"path": "pages/mydi/information/jurisdiction/jurisdiction",
+					"style": {
+						"navigationBarTitleText": "我的权限"
+					}
+				},
+				{
+					"path": "pages/mydi/information/certificate/certificate",
+					"style": {
+						"navigationBarTitleText": "我的证件"
+					}
+				},
+				{
+					"path": "pages/mydi/information/travelPolicy/travelPolicy",
+					"style": {
+						"navigationBarTitleText": "出差政策"
+					}
+				},
+				{
+					"path": "pages/mydi/information/usualAddress/usualAddress",
+					"style": {
+						"navigationBarTitleText": "常用地址"
+					}
+				},
+				{
+					"path": "pages/mydi/information/changePassword/changePassword",
+					"style": {
+						"navigationBarTitleText": "修改密码"
+					}
+				},
+				{
+					"path": "pages/mydi/information/usualAddress/newCommonAddresses/newcommonaddresses",
+					"style": {
+						"navigationBarTitleText": "常用地址添加"
+					}
+				},
+
+				{
+					"path": "pages/mydi/myapplication/myapplication",
+					"style": {
+						"navigationBarTitleText": "我的申请",
+						"enablePullDownRefresh": true, //设置为true表示当前页面开启下拉刷新
+						"backgroundTextStyle": "dark" //下拉 loading 的样式，仅支持 dark/light
+					}
+				},
+				{
+					"path": "pages/mydi/myapplication/cationchirder/initiatetravelapplications",
+					"style": {
+						"navigationBarTitleText": "发起出差申请"
+					}
+				},
+				{
+					"path": "pages/mydi/myapplication/tradetails/travelsdetails",
+					"style": {
+						"navigationBarTitleText": "出差详情"
+					}
+				},
+				{
+					"path": "pages/mydi/myapplication/cationchirder/sselect-city/selectcity",
+					"style": {
+						"navigationBarTitleText": "城市选择"
+					}
+				},
+				{
+					"path": "pages/mydi/myapplication/cationchirder/data_on/data_du",
+					"style": {
+						"navigationBarTitleText": "日期选择"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "差旅预定",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#50B7EA",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/book/book",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/towork/towork",
+				"text": "客服"
+			},
+			{
+				"pagePath": "pages/mydi/mydi",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

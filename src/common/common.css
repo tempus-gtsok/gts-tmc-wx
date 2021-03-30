@@ -1,0 +1,18 @@
+page{
+	height: 100%;
+	background: #f1f1f1;
+	color: #333333;
+}
+.tac{
+	text-align: center;
+}
+.dajc{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dajs{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
