@@ -17,7 +17,7 @@
 测试账号： yunying001 密码：tempus123
 
 ```
-# tb-web-h5
+# gts-tmc-wx
 
 > uniapp
 > node.js (环境)
